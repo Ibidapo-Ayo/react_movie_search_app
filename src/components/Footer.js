@@ -12,19 +12,19 @@ function Footer() {
             </p>
             <div className="d-flex w-100">
               <div className="social-icon">
-                <a href="#">
+                <span>
                   <i className="bx bxl-facebook"></i>
-                </a>
+                </span>
               </div>
               <div className="social-icon">
-                <a href="#">
+                <span>
                   <i className="bx bxl-twitter"></i>
-                </a>
+                </span>
               </div>
               <div className="social-icon">
-                <a href="#">
+              <span>
                   <i className="bx bxl-instagram"></i>
-                </a>
+                </span>
               </div>
             </div>
           </div>
@@ -32,19 +32,19 @@ function Footer() {
             <h4 className="text-white text-left">Quick Link</h4>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-left">
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <span className="nav-link">
                   <i className="bx bx-chevron-right"></i> Home
-                </a>
+                </span>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <span className="nav-link">
                   <i className="bx bx-chevron-right"></i> About
-                </a>
+                </span>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <span className="nav-link">
                   <i className="bx bx-chevron-right"></i> Contact us
-                </a>
+                </span>
               </li>
             </ul>
           </div>
