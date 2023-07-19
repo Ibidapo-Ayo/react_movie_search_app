@@ -32,14 +32,14 @@ function Navbar() {
                 />
               </li>
               <li className="nav-item dropdown">
-                <a
+                <p
                   className="nav-link dropdown-toggle"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Ibidapo Ayomide
-                </a>
+                </p>
                 <ul className="dropdown-menu">
                   <li>
                     <p className="dropdown-item">
