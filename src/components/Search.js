@@ -22,7 +22,7 @@ function Search() {
           })
           .catch(error => {
             setMovies([]);
-            console.log(error);
+            setError("An Error Occur")
           });
       }
       GetMovies();
