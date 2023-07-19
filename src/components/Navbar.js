@@ -8,9 +8,9 @@ function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg bg-dark">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <div className="navbar-brand">
             <img src={logo} alt="Cine App" className="logo" />
-          </a>
+          </div>
           <button
             className="navbar-toggler"
             type="button"
@@ -32,28 +32,27 @@ function Navbar() {
                 />
               </li>
               <li className="nav-item dropdown">
-                <a
+                <button
                   className="nav-link dropdown-toggle"
-                  href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Ibidapo Ayomide
-                </a>
+                </button>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <p className="dropdown-item">
                       <i className="bx bx-user"></i> Profile
-                    </a>
+                    </p>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <p className="dropdown-item">
                       <i className="bx bx-exit"></i> Logout
-                    </a>
+                    </p>
                   </li>
                 </ul>
               </li>
