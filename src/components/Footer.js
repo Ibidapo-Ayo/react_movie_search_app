@@ -74,7 +74,7 @@ function Footer() {
         </div>
         <p className="text-white">
           <i className="bx bx-copyright"></i> 2022-2022 This app is created with{" "}
-          <i className="bx bx-heart"></i> from <a href="#">Ibidapo Ayomide</a>
+          <i className="bx bx-heart"></i> from <a href="https://www.linkedin.com/in/ayomide-victor-ibidapo-1912541b4/">Ibidapo Ayomide</a>
         </p>
       </div>
     </div>
