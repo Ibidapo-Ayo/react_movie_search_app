@@ -34,7 +34,7 @@ function Search() {
   useEffect(() => {
     async function FetchMovie() {
       await axios
-        .get("http://www.omdbapi.com/?s=all&apikey=e2ac4824")
+        .get("https://www.omdbapi.com/?s=all&apikey=e2ac4824")
         .then(response => {
           setMovies(response.data.Search);
         });
