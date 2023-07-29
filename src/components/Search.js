@@ -16,7 +16,7 @@ function Search() {
     if (text) {
       async function GetMovies() {
         await axios
-          .get(`http://www.omdbapi.com/?s=${text}&apikey=e2ac4824`)
+          .get(`https://www.omdbapi.com/?s=${text}&apikey=e2ac4824`)
           .then(response => {
             setMovies(response.data.Search);
           })
